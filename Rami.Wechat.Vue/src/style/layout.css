@@ -1,0 +1,315 @@
+.el-menu-vertical-demo {
+    /*width: 230px;*/
+}
+
+.el-menu-item,
+.el-submenu,
+.el-menu-item i,
+.el-submenu i {
+    text-align: left;
+    color: white !important;
+}
+
+.el-menu-item .is-active,
+.el-submenu .is-active,
+.el-menu-item .is-active i,
+.el-submenu .is-active i {
+    color: #ffd04b !important;
+}
+
+.breadcrumbHeader {
+    height: 30px !important;
+    line-height: 30px !important;
+}
+
+.el-breadcrumb {
+    line-height: 30px !important;
+}
+
+.el-breadcrumb span {
+    color: white;
+}
+
+.menu-collapsed .el-icon-arrow-right:before {
+    display: none;
+}
+
+.tags {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 10px;
+    background: #f0f0f0;
+}
+
+.tags ul {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.tags-li {
+    float: left;
+    margin: 3px 5px 2px 3px;
+    border-radius: 3px;
+    font-size: 13px;
+    overflow: hidden;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #e9eaec;
+    background: #fff;
+    padding: 3px 5px 4px 12px;
+    vertical-align: middle;
+    color: #666;
+    -webkit-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.tags-li-icon {
+    cursor: pointer;
+}
+
+.tags-li:not(.active):hover {
+    background: #f8f8f8;
+}
+
+.tags-li-title {
+    float: left;
+    max-width: 80px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-right: 5px;
+    color: #666;
+    text-decoration: none;
+}
+
+.tags-li.active {
+    /*color: #fff;*/
+    /*border: 1px solid #10B9D3;*/
+    /*background-color: #10B9D3;*/
+}
+
+.tags-li.active .tags-li-title {
+    /*color: #fff;*/
+}
+
+.tags-close-box {
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 10;
+    float: right;
+    margin-right: 1px;
+    line-height: 2;
+}
+
+.ssoIcon {
+    margin: 0px 5px;
+    color: white !important;
+}
+
+.news-dialog {
+    background: #fff;
+    z-index: 3000 !important;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    max-width: 260px;
+    top: 60px !important;
+    left: 0 !important;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+    -webkit-transition: all .25s cubic-bezier(.7, .3, .1, 1);
+    transition: all .25s cubic-bezier(.7, .3, .1, 1);
+    -webkit-transform: translate(100%);
+    z-index: 40000;
+    left: auto !important;
+    right: 0 !important;
+    transform: translate(0);
+}
+
+.news-dialog .el-dialog {
+    margin: auto !important;
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    box-shadow: none;
+    width: 100%;
+}
+
+.news-dialog.show {
+    transform: translate(0);
+}
+
+.tag-new {
+    width: 100%;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 680px) {
+
+    .collapsedLogo {
+        display: none;
+    }
+
+    .el-dialog {
+        width: 90% !important;
+    }
+
+    .content-expanded {
+        max-width: 100% !important;
+        max-height: calc(100% - 60px);
+    }
+
+    .mobile-ex {
+        background: #fff;
+        z-index: 3000;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 260px;
+        top: 0;
+        left: 0;
+        -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, .05);
+        -webkit-transition: all .25s cubic-bezier(.7, .3, .1, 1);
+        transition: all .25s cubic-bezier(.7, .3, .1, 1);
+        -webkit-transform: translate(100%);
+        z-index: 40000;
+        left: auto;
+        right: 0;
+        transform: translate(100%);
+    }
+
+    .mobile-ex.menu-collapsed-mobile {
+        transform: translate(0);
+    }
+
+    .el-menu--collapse {
+        width: 100% !important;
+    }
+
+    .el-date-editor.el-input,
+    .el-date-editor.el-input__inner,
+    .el-cascader.el-cascader--medium {
+        width: 100% !important;
+    }
+
+    .toolbar.roles {
+        width: 100% !important;
+    }
+
+    .toolbar.perms {
+        width: 800px !important;
+    }
+
+    .toolbar.perms .box-card {
+        width: 100% !important;
+    }
+
+    .login-container {
+        width: 300px !important;
+    }
+
+    .count-test label {}
+
+    .content-wrapper .tags {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+.tags-view-container {
+    height: 34px;
+    width: calc(100% - 60px);
+    /*background: #fff;*/
+    /*border-bottom: 1px solid #d8dce5;*/
+    /*box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 0 3px 0 rgba(0, 0, 0, 0.04);*/
+    float: left;
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    border: 1px solid #d8dce5;
+    color: #495060;
+    background: #fff;
+    padding: 0 8px;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item:first-of-type {
+    margin-left: 15px;
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item:last-of-type {
+    margin-right: 15px;
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item.active {
+    /*background-color: #42b983;*/
+    /*color: #fff;*/
+    /*border-color: #42b983;*/
+}
+
+.tags-view-container .tags-view-wrapper .tags-view-item.active::before {
+    content: "";
+    background: #2d8cf0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 2px;
+}
+
+.tags-view-container .contextmenu {
+    margin: 0;
+    background: #fff;
+    z-index: 3000;
+    position: absolute;
+    list-style-type: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.3);
+}
+
+.tags-view-container .contextmenu li {
+    margin: 0;
+    padding: 7px 16px;
+    cursor: pointer;
+}
+
+.tags-view-container .contextmenu li:hover {
+    background: #eee;
+}
+
+.tags-view-wrapper .tags-view-item .el-icon-close {
+    width: 16px;
+    height: 16px;
+    vertical-align: 2px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform-origin: 100% 50%;
+}
+
+.tags-view-wrapper .tags-view-item .el-icon-close:before {
+    transform: scale(0.6);
+    display: inline-block;
+    vertical-align: -3px;
+}
+
+.tags-view-wrapper .tags-view-item .el-icon-close:hover {
+    background-color: #ef2b74;
+    color: #fff;
+}

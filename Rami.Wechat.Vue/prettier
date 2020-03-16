@@ -1,0 +1,16 @@
+{
+  "printWidth": 800,
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "trailingComma": "none",
+  "arrowParens": "avoid",
+  "proseWrap": "never",
+  "endOfLine": "auto",
+  "tabWidth": 2,
+  "useTabs": true,
+  "eslintIntegration": true,
+  "stylelintIntegration": true
+}
